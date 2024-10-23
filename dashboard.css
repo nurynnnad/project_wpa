@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5); /* Updated to more vibrant gradient */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 80px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02); /* Subtle hover effect to elevate the container */
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #7f8c8d;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.link-box {
+    text-decoration: none;
+    color: #3498db;
+    padding: 15px 20px;
+    display: block;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.4s ease;
+    max-width: 300px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.link-box:hover {
+    background-color: #3498db;
+    color: white;
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
